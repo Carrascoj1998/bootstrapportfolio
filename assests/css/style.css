@@ -1,5 +1,6 @@
-.navbar{
+.nav{
     background: #ffffff;
+    padding: 20px;
     
 }
 
@@ -17,9 +18,8 @@
     padding: 35px;
     font-size: 20px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+
 }
-
-
 
 footer {
     position: fixed;
@@ -35,22 +35,16 @@ footer {
     font-size: 20px;
 }
 
-
-
-
-
 .container{
     background: #ffffff;
-    padding: 100px;
+    position: center;
+    padding: 20px;
     height: 400px;
+    width: auto;
     border: 3px solid #dddddd;
+    
 
 }
-
-
-
-
-
 
 h1{
     border-bottom: 5px solid #4aaaa5;
@@ -61,14 +55,21 @@ h1{
 }
 
 img{
-    width:150px;
+    float: left;
+    width: auto;
+    height: 300px;
+    padding: 20px;         
+    text-align: center;
+}
+
+p{
     
-
+   float: top;
+   text-align: left;  
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   
 }
-
-.maincontent{
-    text-align: right;
+.navbar-text{
+    text-align: right
 }
-
-
 
