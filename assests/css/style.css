@@ -1,23 +1,31 @@
 .nav{
     background: #ffffff;
-    padding: 20px;
+    padding: 15px;
+    margin-left: auto;
+    color: white !important;
+    
+    
+    
     
 }
 
-.navbar-nav{
-    font-size: 20px
-}
 
-.navbar-brand1{
+
+
+.namebox{
     background: #4aaaa5;
     color: aliceblue;
     margin: 0;
     height: 60px;
     text-align: center;
     width: auto;
-    padding: 35px;
-    font-size: 20px;
+    padding: 20px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: right;
+    float: right;
+    
+    
+    
 
 }
 
@@ -46,7 +54,7 @@ footer {
 
 }
 
-h1{
+h2{
     border-bottom: 5px solid #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #777777;
@@ -71,5 +79,11 @@ p{
 }
 .navbar-text{
     text-align: right
+}
+
+
+.linkbuttons{
+    float: right;
+    color: white !important;
 }
 
