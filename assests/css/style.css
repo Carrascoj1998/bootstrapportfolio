@@ -1,6 +1,6 @@
 .nav{
     background: #ffffff;
-    padding: 15px;
+    padding: 12px;
     margin-left: auto;
     color: white !important;
     
@@ -86,4 +86,75 @@ p{
     float: right;
     color: white !important;
 }
+
+
+#rightpictures{
+    outline: 1px solid gray;
+    background: black;
+    float: left;
+    padding: 15px;
+    width: 310px;
+    height: 215px;
+    margin:  auto;
+  
+}
+
+
+h3{
+    color: #f2f2f2;
+    text-align: center;
+    background: #4aaaa5;
+    width: 280px;
+    height: 190px;
+    margin: auto;
+  
+    
+}
+
+.portfoliopic{
+    
+    padding: 10px;
+    width: 290px;
+    height: auto;
+    margin:  auto;
+
+}
+
+.portfoliopic2{
+    
+    padding: 10px;
+    width: 280px;
+    height: auto;
+    margin:  auto;
+    float: left;
+
+}
+
+
+
+
+h4{
+    color: #f2f2f2;
+    text-align: center;
+    background: #4aaaa5;
+    width: 280px;
+    height: 215px;
+    margin: auto;
+    padding: 10px;
+  
+    
+}
+
+#leftpictures{
+    outline: 1px solid gray;
+    background: black;
+    float: right;
+    padding: 15px;
+    width: 310px;
+    height: 235px;
+    margin:  auto;
+  
+}
+
+
 
