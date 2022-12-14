@@ -12,7 +12,7 @@
 
 
 
-.namebox{
+#namebox{
     background: #4aaaa5;
     color: aliceblue;
     margin: 0;
@@ -48,19 +48,11 @@ footer {
     position: center;
     padding: 20px;
     height: 400px;
-    width: auto;
     border: 3px solid #dddddd;
     
 
 }
 
-h2{
-    border-bottom: 5px solid #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #777777;
-     
-
-}
 
 img{
     float: left;
@@ -99,14 +91,45 @@ p{
   
 }
 
+#leftpictures{
+    outline: 1px solid gray;
+    background: black;
+    float: right;
+    padding: 10px;
+    width: 310px;
+    height: 230px;
+    margin:  auto;
+  
+}
+
+h2{
+    border-bottom: 5px solid #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+     
+
+}
+
 
 h3{
     color: #f2f2f2;
     text-align: center;
     background: #4aaaa5;
-    width: 280px;
+    width: auto;
     height: 190px;
     margin: auto;
+  
+    
+}
+
+h4{
+    color: #f2f2f2;
+    text-align: center;
+    background: #4aaaa5;
+    width: auto;
+    height: 215px;
+    margin: auto;
+    padding: 10px;
   
     
 }
@@ -114,8 +137,8 @@ h3{
 .portfoliopic{
     
     padding: 10px;
-    width: 290px;
-    height: auto;
+    width: auto;
+    height: 150px;
     margin:  auto;
 
 }
@@ -123,7 +146,7 @@ h3{
 .portfoliopic2{
     
     padding: 10px;
-    width: 280px;
+    width: 260px;
     height: auto;
     margin:  auto;
    
@@ -133,35 +156,34 @@ h3{
 
 
 
-h4{
-    color: #f2f2f2;
-    text-align: center;
-    background: #4aaaa5;
-    width: 280px;
-    height: 215px;
-    margin: auto;
-    padding: 10px;
-  
-    
-}
 
-#leftpictures{
-    outline: 1px solid gray;
-    background: black;
-    float: right;
-    padding: 10px;
-    width: 300px;
-    height: 220px;
-    margin:  auto;
-  
-}
 
-@media only screen and (min-width: 688px) {
-    .container{
-        
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    img{
+        float: left;
+        width: auto;
+        height: 150px;
+        padding: 5px;         
+        text-align: center;
     }
 
- }
+
+    
+
+}
+
+@media (max-width: 767px){
+
+}
 
 
 
