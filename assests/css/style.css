@@ -21,6 +21,7 @@
     width: auto;
     padding: 20px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
     text-align: right;
     float: right;
     
@@ -47,7 +48,7 @@ footer {
     background: #ffffff;
     position: center;
     padding: 20px;
-    height: 400px;
+    height: 450px;
     border: 3px solid #dddddd;
     
 
@@ -223,7 +224,15 @@ h6{
 .center{
     margin-left: auto;
     margin-right: auto;
+    background: #4aaaa5;
+    height: 250px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+
 }
+
+
 
 
 
